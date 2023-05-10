@@ -4,7 +4,7 @@ const request = require('request');
 const luaparse = require('luaparse');
 
 const TOKEN = 'YOUR_DISCORD_BOT_TOKEN_HERE';
-const bot = new CommandoClient({
+const bot = new CommandClient({
     commandPrefix: '!'
 });
 
